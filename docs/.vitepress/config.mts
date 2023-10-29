@@ -16,13 +16,23 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'What is Blockspace?', link: '/what-is-blockspace' }
+        ]
+      },
+      {
+        text: 'Examples2',
+        items: [
+          { text: 'Builder - Getting Started', link: 'builder/getting-started' },
+          { text: 'Trader - Index', link: 'trader/index' },
+          { text: 'What is Blockspace?', link: '/what-is-blockspace' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'twitter', link: 'https://x.com/lastic_xyz' },
+      { icon: 'github', link: 'https://github.com/lastic_xyz/lasticUI' }
     ]
   }
 })

@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Lastics Docs"
-  text: "Vitepress Docs for Lastic"
-  tagline: My great project tagline
+  name: "Lastic"
+  text: "The first blockspace marketplace"
+  tagline: Documentation
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Go to the docs
       link: /markdown-examples
     - theme: alt
       text: API Examples
