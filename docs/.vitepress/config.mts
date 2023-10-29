@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'FAQs', link: '/faqs/what-is-blockspace' }
+      { text: 'FAQs', link: '/faqs' }
     ],
 
     sidebar: [
