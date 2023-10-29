@@ -1,1 +1,3 @@
+# What is a blockspace marketplace?
+
 A Blockspace marketplace refers to a platform that facilitates the buying, selling, or allocation of blockchain execution and storage space, known as blockspace. There are two types of marketplaces that allow for purchasing of blockspace, namely  primary and secondary marketplaces. In the case of Lastic, the primary marketplace is the purchasing of coretime provided by the network directly. Whereas, the secondary marketplace is where blockspace can be divided and re-sold to participants.
