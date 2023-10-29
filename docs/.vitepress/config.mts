@@ -8,19 +8,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'FAQs', link: 'faqs/what-is-blockspace' }
+      { text: 'FAQs', link: '/faqs/what-is-blockspace' }
     ],
 
     sidebar: [
       {
         text: 'FAQs',
         items: [
-          { text: 'What is Blockspace?', link: 'faqs/what-is-blockspace' },
-          { text: 'What is a Blockspace Marketplace?', link: 'faqs/what-is-a-blockspace-marketplace' },
-          { text: 'What is Coretime on Polkadot?', link: 'faqs/what-is-coretime-on-polkadot' },
-          { text: 'What can the Blockspace be used for?', link: 'faqs/what-can-blockspace-be-used-for' },
-          { text: 'Who will be able to buy and sell blockspace on Lastic?', link: 'faqs/who-will-be-able-to-buy-and-sell' },
-          { text: 'When will Lastic launch?', link: 'faqs/when-will-lastic-launch' }
+          { text: 'What is Blockspace?', link: '/faqs/what-is-blockspace' },
+          { text: 'What is a Blockspace Marketplace?', link: '/faqs/what-is-a-blockspace-marketplace' },
+          { text: 'What is Coretime on Polkadot?', link: '/faqs/what-is-coretime-on-polkadot' },
+          { text: 'What can the Blockspace be used for?', link: '/faqs/what-can-blockspace-be-used-for' },
+          { text: 'Who will be able to buy and sell blockspace on Lastic?', link: '/faqs/who-will-be-able-to-buy-and-sell' },
+          { text: 'When will Lastic launch?', link: '/faqs/when-will-lastic-launch' }
         ]
       },
       {
