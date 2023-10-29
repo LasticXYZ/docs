@@ -26,8 +26,8 @@ export default defineConfig({
       {
         text: 'Examples2',
         items: [
-          { text: 'Builder - Getting Started', link: 'builder/getting-started' },
-          { text: 'Trader - Index', link: 'trader/index' },
+          { text: 'Builder - Getting Started', link: '/builder/getting-started' },
+          { text: 'Trader - Index', link: '/trader/index' },
           { text: 'What is Blockspace?', link: '/what-is-blockspace' }
         ]
       }
