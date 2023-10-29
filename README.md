@@ -8,3 +8,11 @@ To get this repository started, run
 pnpm install
 pnpm run docs:dev
 ```
+
+## To push updates 
+
+```sh
+git add .
+git commit -m "comment"
+git push origin main
+```
