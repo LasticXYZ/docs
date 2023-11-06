@@ -9,17 +9,17 @@ hero:
   actions:
     - theme: brand
       text: Go to the docs
-      link: /markdown-examples
+      link: /blockspace-basics
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: FAQs
+      link: /faqs
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Builders
+    details: Buy blockspace easily for your chain.
+  - title: Tinkerers
+    details: Get on-demand blockspace for experimenters.
+  - title: Traders
+    details: See the market dynamics and start trading blockspace.
 ---
 
