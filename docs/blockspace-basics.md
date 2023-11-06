@@ -1,4 +1,4 @@
-# What is Blockspace?
+# Blockspace Basics
 
 Blockspace refers to the resource provided by blockchains where transactions and data are recorded. Each block within the blockchain has a limited amount of space, and this space is valuable because it's used to store, compute, and validate transactions. Understanding blockspace is crucial for comprehending how blockchain technology works and its limitations.
 
