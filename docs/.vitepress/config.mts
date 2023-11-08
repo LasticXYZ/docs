@@ -8,7 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'FAQs', link: '/faqs' }
+      { text: 'FAQs', link: '/faqs' },
+      { text: 'Coretime on Polkadot', link: '/coretime' }
     ],
 
     sidebar: [
@@ -27,14 +28,14 @@ export default defineConfig({
         text: 'Coretime on Polkadot',
         items: [
           { text: 'What is Coretime?', link: '/coretime/what-is-coretime' },
-          { text: 'What is the Coretime Chain?', link: '/coretime-on-polkadot/coretime-chain' },
-          { text: 'What is Bulk Coretime?', link: '/coretime-on-polkadot/bulk-coretime' },
-          { text: 'What is Instantaneous Coretime?', link: '/coretime-on-polkadot/instantaneous-coretime' },
-          { text: 'What is the Instantaneous Pool?', link: '/coretime-on-polkadot/insta-pool' },
-          { text: 'How much is Coretime?', link: '/coretime-on-polkadot/how-much' },
-          { text: 'What is a timeslice?', link: '/coretime-on-polkadot/timeslice' },
-          { text: 'What are renewals?', link: '/coretime-on-polkadot/renewals' },
-          { text: 'What is the lead-in period?', link: '/coretime-on-polkadot/leadin-period' }
+          { text: 'What is the Coretime Chain?', link: '/coretime/coretime-chain' },
+          { text: 'What is Bulk Coretime?', link: '/coretime/bulk-coretime' },
+          { text: 'What is Instantaneous Coretime?', link: '/coretime/instantaneous-coretime' },
+          { text: 'What is the Instantaneous Pool?', link: '/coretime/insta-pool' },
+          { text: 'How much is Coretime?', link: '/coretime/how-much' },
+          { text: 'What is a timeslice?', link: '/coretime/timeslice' },
+          { text: 'What are renewals?', link: '/coretime/renewals' },
+          { text: 'What is the lead-in period?', link: '/coretime/leadin-period' }
         ]
       },
       {
