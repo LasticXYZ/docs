@@ -1,0 +1,3 @@
+# What is the lead-in period?
+
+The lead-in period is the initial part of the Purchasing Period for Bulk Coretime. During the lead-in period, which lasts for a specified duration (not yet determined), the price of Bulk Coretime starts higher than the Sale Price and gradually decreases to the Sale Price at the end of the period. This mechanism is designed to create a dynamic pricing model that can encourage early bidding while ensuring that all Bulk Coretime is eventually sold at a known and stable price.

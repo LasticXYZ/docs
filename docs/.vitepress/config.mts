@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'FAQs', link: '/faqs' }
+      { text: 'FAQs', link: '/faqs' },
     ],
 
     sidebar: [
@@ -21,6 +21,20 @@ export default defineConfig({
           { text: 'What can the Blockspace be used for?', link: '/faqs/what-can-blockspace-be-used-for' },
           { text: 'Who will be able to buy and sell blockspace on Lastic?', link: '/faqs/who-will-be-able-to-buy-and-sell' },
           { text: 'When will Lastic launch?', link: '/faqs/when-will-lastic-launch' }
+        ]
+      },
+      {
+        text: 'Coretime on Polkadot',
+        items: [
+          { text: 'What is Coretime?', link: '/coretime/what-is-coretime' },
+          { text: 'What is the Coretime Chain?', link: '/coretime/coretime-chain' },
+          { text: 'What is Bulk Coretime?', link: '/coretime/bulk-coretime' },
+          { text: 'What is Instantaneous Coretime?', link: '/coretime/instantaneous-coretime' },
+          { text: 'What is the Instantaneous Pool?', link: '/coretime/insta-pool' },
+          { text: 'How much is Coretime?', link: '/coretime/how-much' },
+          { text: 'What is a timeslice?', link: '/coretime/timeslice' },
+          { text: 'What are renewals?', link: '/coretime/renewals' },
+          { text: 'What is the lead-in period?', link: '/coretime/leadin-period' }
         ]
       },
       {
