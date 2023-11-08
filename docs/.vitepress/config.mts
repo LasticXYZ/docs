@@ -26,7 +26,7 @@ export default defineConfig({
       {
         text: 'Coretime on Polkadot',
         items: [
-          { text: 'What is Coretime?', link: '/coretime-on-polkadot/what-is-coretime' },
+          { text: 'What is Coretime?', link: '/coretime/what-is-coretime' },
           { text: 'What is the Coretime Chain?', link: '/coretime-on-polkadot/coretime-chain' },
           { text: 'What is Bulk Coretime?', link: '/coretime-on-polkadot/bulk-coretime' },
           { text: 'What is Instantaneous Coretime?', link: '/coretime-on-polkadot/instantaneous-coretime' },
