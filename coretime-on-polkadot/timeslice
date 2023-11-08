@@ -1,0 +1,3 @@
+# What is a timeslice?
+
+A timeslice is a designated period used to quantify the allocation of Coretime *as a range of time* on the Polkadot Network. This is integral to the scheduling and management of core resources for various tasks within Polkadot. Timeslices allow for a core owner to split up their blockspace at regular or irregular intervals depending on their or their buyer's preference, e.g., "I want blockspace every 6 seconds between Jan 1, 10:00 UTC and Jan 2, 10:00 UTC" or "I want blockspace every 10 minutes for a period of 30 seconds."
