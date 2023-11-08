@@ -3,3 +3,5 @@
 Blockspace is the product of blockchains. It is the space available within a block in a blockchain where transactions and other data can be processed, verified, and stored. Each block in a blockchain has a maximum size or capacity, and the transactions that are to be included in the block must fit within this space. The transactions within a block must also meet the requirements of the format that the blockchain will allow.
 
 The concept of blockspace is crucial in understanding the value proposition of Coretime on Polkadot, as it forms the basis for how computational resources are allocated and priced within the network. Through the purchasing and trading of blockspace via Coretime, Polkadot aims to create a more dynamic and flexible system for developers and projects to access and utilize the network's resources.
+
+Learn more about Blockspace and Coretime on Polkadot in the [Coretime Section](/coretime/what-is-coretime) of the documentation.
