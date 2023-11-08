@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Lastic"
   text: "The first blockspace marketplace"
-  tagline: Documentation
+  tagline: Lastic Documentation
   actions:
     - theme: brand
       text: Go to the docs

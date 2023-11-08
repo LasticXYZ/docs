@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Lastics Docs",
-  description: "Vitepress Docs for Lastic",
+  title: "Lastic Docs",
+  description: "Documentation and FAQs for Lastic",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'FAQs', link: '/faqs/what-is-blockspace' }
+      { text: 'FAQs', link: '/faqs' }
     ],
 
     sidebar: [
@@ -24,11 +24,9 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Examples2',
+        text: 'Dive deeper',
         items: [
-          { text: 'Builder - Getting Started', link: 'builder/getting-started' },
-          { text: 'Trader - Index', link: 'trader/index' },
-          { text: 'What is Blockspace?', link: '/what-is-blockspace' }
+          { text: 'Blockspace Basics', link: '/blockspace-basics' }
         ]
       }
     ],
