@@ -9,7 +9,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'FAQs', link: '/faqs' },
-      { text: 'Coretime on Polkadot', link: '/coretime' }
     ],
 
     sidebar: [
