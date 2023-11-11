@@ -1,0 +1,3 @@
+# What is Instantaneous Coretime?
+
+Previously referred to as "Parathreads" or "Pay-as-you-go Parachains," Instantaneous Coretime is sold on the Relay Chain immediately prior to its usage on a block-by-block basis. It allows for the immediate allocation of core resources for Tasks without the need to pre-schedule or participate in the periodic Bulk Coretime sales. Instantaneous Coretime credits are non-transferable and non-refundable, only usable for immediate core allocation.

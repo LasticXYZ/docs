@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Lastics Docs",
-  description: "Vitepress Docs for Lastic",
+  title: "Lastic Docs",
+  description: "Documentation and FAQs for Lastic",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'FAQs', link: '/faqs/what-is-blockspace' }
+      { text: 'FAQs', link: '/faqs' },
     ],
 
     sidebar: [
@@ -24,11 +24,23 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Examples2',
+        text: 'Coretime on Polkadot',
         items: [
-          { text: 'Builder - Getting Started', link: '/builder/getting-started' },
-          { text: 'Trader - Index', link: '/trader/index' },
-          { text: 'What is Blockspace?', link: '/what-is-blockspace' }
+          { text: 'What is Coretime?', link: '/coretime/what-is-coretime' },
+          { text: 'What is the Coretime Chain?', link: '/coretime/coretime-chain' },
+          { text: 'What is Bulk Coretime?', link: '/coretime/bulk-coretime' },
+          { text: 'What is Instantaneous Coretime?', link: '/coretime/instantaneous-coretime' },
+          { text: 'What is the Instantaneous Pool?', link: '/coretime/insta-pool' },
+          { text: 'How much is Coretime?', link: '/coretime/how-much' },
+          { text: 'What is a timeslice?', link: '/coretime/timeslice' },
+          { text: 'What are renewals?', link: '/coretime/renewals' },
+          { text: 'What is the lead-in period?', link: '/coretime/leadin-period' }
+        ]
+      },
+      {
+        text: 'Dive deeper',
+        items: [
+          { text: 'Blockspace Basics', link: '/blockspace-basics' }
         ]
       }
     ],

@@ -4,22 +4,25 @@ layout: home
 
 hero:
   name: "Lastic"
-  text: "The first blockspace marketplace"
-  tagline: Documentation
+  text: "The first Blockspace Marketplace"
+  tagline: "Welcome to the Lastic Documentation Hub"
   actions:
     - theme: brand
       text: Go to the docs
-      link: /markdown-examples
+      link: /blockspace-basics
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: FAQs
+      link: /faqs/what-is-blockspace
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 👷
+    title: Builders
+    details: Buy blockspace easily for your chain.
+  - icon: 👩‍🔬
+    title: Tinkerers
+    details: Get on-demand blockspace for experimenters.
+  - icon: 🤵
+    title: Traders
+    details: See the market dynamics and start trading blockspace.
 ---
 

@@ -1,0 +1,3 @@
+# What is the Instantaneous Coretime Pool?
+
+The Instantaneous Coretime Pool allows owners of Bulk Coretime to contribute a portion of their Coretime to a shared pool. This pool is used to service Instantaneous Coretime purchases, enabling tasks (such as parachains, parathreads or dapps) to be scheduled on Polkadot immediately before they are processed, without the need for advance scheduling. Owners who contribute their Bulk Coretime to the Instantaneous Coretime Pool receive a pro-rata share of the revenue generated from Instantaneous Coretime sales based on the period and regularity of their contribution. This system creates a means for Coretime to be bought and sold instantly to meet immediate computational resource needs.

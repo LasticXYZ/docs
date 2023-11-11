@@ -1,0 +1,3 @@
+# What is Coretime?
+
+Coretime refers to the allocation of computational resources within the Polkadot Network, analogous to "blockspace" in traditional blockchain systems. In the context of the Polkadot, Coretime is used to schedule tasks (such as parachains, parathreads or dapps) on available cores, where a task can vary from securing a substrate-based blockchain to other envisioned operations such as zero-knowledge proof computation, smart contracts, synchronous multi-chain tasks, and more once Coreplay and Corejam are implemented.

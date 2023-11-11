@@ -1,4 +1,4 @@
-# What is blockspace?
+# What is Blockspace?
 
 Blockspace is the product of blockchains. It is the space available within a block in a blockchain where transactions and other data can be processed, verified, and stored. Each block in a blockchain has a maximum size or capacity, and the transactions that are to be included in the block must fit within this space. The transactions within a block must also meet the requirements of the format that the blockchain will allow.
 

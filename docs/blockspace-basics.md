@@ -1,6 +1,6 @@
-# What is Blockspace?
+# Blockspace Basics
 
-Blockspace refers to the digital space within a blockchain where transactions and data are recorded. Each block within the blockchain has a limited amount of space, and this space is valuable because it's used to store and validate transactions. Understanding blockspace is crucial for comprehending how blockchain technology works and its limitations.
+Blockspace refers to the resource provided by blockchains where transactions and data are recorded. Each block within the blockchain has a limited amount of space, and this space is valuable because it's used to store, compute, and validate transactions. Understanding blockspace is crucial for comprehending how blockchain technology works and its limitations.
 
 ## Understanding Blockchain
 
@@ -34,7 +34,7 @@ Before diving into blockspace, it's important to understand the basics of blockc
 ## Blockspace Economics
 
 - **Supply and Demand**: Limited blockspace creates a market where users bid for space.
-- **Miners' Incentives**: Miners prioritize transactions with higher fees, influencing the blockspace market.
+- **Validators' Incentives**: Validators and miners prioritize transactions with higher fees, influencing the blockspace market.
 
 ## Impact on Blockchain Networks
 
@@ -43,4 +43,4 @@ Before diving into blockspace, it's important to understand the basics of blockc
 
 ## Conclusion
 
-Blockspace is a fundamental concept in understanding how blockchain technology functions and its inherent limitations. The management of blockspace affects transaction speeds, fees, and the overall scalability of blockchain networks. As the blockchain landscape continues to evolve, so will the approaches to optimizing and utilizing blockspace.
+Blockspace is a fundamental concept in understanding how blockchain technology functions and its inherent limitations. The management of blockspace affects transaction speeds, fees, and the overall scalability of blockchain networks. 
