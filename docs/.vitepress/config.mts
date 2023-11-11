@@ -14,6 +14,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'FAQs',
+        collapsed: true,
         items: [
           { text: 'What is Blockspace?', link: '/faqs/what-is-blockspace' },
           { text: 'What is a Blockspace Marketplace?', link: '/faqs/what-is-a-blockspace-marketplace' },
@@ -35,6 +36,14 @@ export default defineConfig({
           { text: 'What is a timeslice?', link: '/coretime/timeslice' },
           { text: 'What are renewals?', link: '/coretime/renewals' },
           { text: 'What is the lead-in period?', link: '/coretime/leadin-period' }
+        ]
+      },
+      {
+        text: 'Interact with Broker Pallet',
+        collapsed: true,
+        items: [
+          { text: 'Install the Interactor', link: '/substrate-interact/index' },
+          { text: 'Interaction Instructions ', link: '/substrate-interact/interact' }
         ]
       },
       {
