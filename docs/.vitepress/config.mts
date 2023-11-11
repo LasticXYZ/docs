@@ -26,6 +26,7 @@ export default defineConfig({
       },
       {
         text: 'Coretime on Polkadot',
+        collapsed: false,
         items: [
           { text: 'What is Coretime?', link: '/coretime/what-is-coretime' },
           { text: 'What is the Coretime Chain?', link: '/coretime/coretime-chain' },

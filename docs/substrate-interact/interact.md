@@ -79,3 +79,8 @@ Upon accessing the interface, you'll see a display similar to the following imag
    Copy these details to the 'Broker pallet - Transfer Interaction' section and select a new public address to assign the core to a new owner.
 
    ![Transfer Interaction](./img/img8.png)
+
+
+### Other Interactions
+Other extrinsic interactions both `SUDO` and `SIGNED-TX` can be found under the `Broker Pallet Interactor` drop down button.
+   ![Other Interactions](./img/img10.png)
