@@ -4,7 +4,13 @@
 
 1. **Adjust Core Sale Parameters**: In the sidebar, under 'Configuration Settings', use the sliders to set parameters like interlude length, leadin length, region length, ideal bulk proportion, limit of cores offered, and the renewal bump amount.
 
-![config](./img/config.png)
+<img src="./img/config.png" alt="config" style="width: 40%;" />
+<img src="./img/const-sold.png" alt="const sold" style="width: 40%;" />
+
+
+![info hover](./img/info-hover.png)
+<img src="./img/leadin-curve.png" alt="leadin curve" style="width: 40%;" />
+<img src="./img/sale-settings.png" alt="salesettings" style="width: 40%;" />
 
 2. **Parameter Insights**:
    - `Interlude Length`: A period for renewals, allowing priority to existing tasks.
@@ -26,6 +32,11 @@
    - Toggle between constant and variable sales across regions.
    - For constant sales, set the number of cores renewed and sold in each sale.
    - For variable sales, adjust the number of cores renewed and sold for each region.
+
+<img src="./img/var-sold1.png" alt="variable sold 1" style="width: 40%;" />
+
+![variable sold 2](./img/var-sold2.png)
+
 
 ### Visualization
 
