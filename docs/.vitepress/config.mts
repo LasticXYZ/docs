@@ -48,6 +48,14 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Interact with the Price Simulator',
+        collapsed: true,
+        items: [
+          { text: 'Key concepts', link: '/price-simulator/index' },
+          { text: 'How to Use', link: '/price-simulator/how-to-use' },
+        ]
+      },
+      {
         text: 'Dive deeper',
         items: [
           { text: 'Blockspace Basics', link: '/blockspace-basics' }
