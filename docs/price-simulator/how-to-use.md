@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This guide will walk you through the features and functionalities of the simulator, ensuring you make the most out of this application.
+This guide will walk you through the features and functionalities of the simulator, ensuring you make the most out of this application. For a video guide check out this youtube video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7y8Tad7WfdU?si=QWtblXUL38VZVqby" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Visualization
 
