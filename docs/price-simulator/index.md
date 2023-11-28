@@ -4,7 +4,7 @@ Welcome to the Coretime Sale Price Simulator 🎉 🎉 🎉! This interactive to
 
 ## Accessing the Application
 
-Visit [lastic.streamlit.app](https://lastic.streamlit.app/) to start using the application.
+Visit [lastic.streamlit.app](https://lastic.streamlit.app/) to start using the application. Or go to check the [Github repository](https://github.com/LasticXYZ/price-simulation).
 
 ## Features
 
@@ -18,7 +18,9 @@ The Lastic Sale Price Simulator offers the following features:
 ![sale-price](./img/sale-price.png)
 
 ## A few explainations before diving deeper
-Before you start diving deeper into how to use the tool here are a few key things to know:
+Before you start diving deeper into how to use the tool, here is an article [breaking down RFC-1](https://blog.lastic.xyz/simplifying-rfc-1-understanding-agile-coretime-for-the-polkadot-network-9db27c6ad847), that gives explainations to what the proposed changes regarding Polkadot and it's core allocation.
+
+In addition to that here are a few key things to know:
 
 ### Overview of Agile Coretime on Polkadot
 
@@ -36,12 +38,11 @@ Instead of fixed, long-term allocations (like the previous parachain slot auctio
    
 2. **Instantaneous Coretime**: Sold on a block-by-block basis, catering to immediate, short-term needs.
 
-This dual system aims to balance long-term planning with the flexibility of immediate resource allocation. Since this price simulator only models Bulk Coretime pricing, we are going to go a bit deeper into that.
+This dual system aims to balance long-term planning with the flexibility of immediate resource allocation. Since this price simulator only models Bulk Coretime pricing, we are going to focus only on explaining Bulk Coretime and not Instantanious Coretime.
 
 #### Region: The Tradable Unit of Coretime
 - A **Region** is a defined period of Coretime with a specific regularity and core association, forming the basis of the sale and allocation process.
 - Regions can be traded, split, or pooled, providing flexibility in how Coretime is managed and utilized.
-
 
 ### Simplified Explanation of Bulk Pricing in Polkadot's Agile Coretime
 

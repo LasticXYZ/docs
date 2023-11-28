@@ -1,53 +1,64 @@
-# How to Use
+# User Guide: Coretime Price Simulator
+
+## Introduction
+
+This guide will walk you through the features and functionalities of the simulator, ensuring you make the most out of this application.
+
+## Visualization
+
+The Coretime Price Simulator provides a graphical representation of sale prices over time based on your input settings. Key periods, such as `Interlude`, `Leadin`, and `Region`, are distinctly marked on the graph for clarity.
+
+## Sidebar: Customizing Your Simulation
+
+The sidebar is your control panel for customizing the simulation. It contains various settings that directly influence the graph's output.
+
+Hovering over the `?` icon next to each setting reveals additional information.
+
+![info hover](./img/info-hover.png)
 
 ### Configuration Settings
 
-1. **Adjust Core Sale Parameters**: In the sidebar, under 'Configuration Settings', use the sliders to set parameters like interlude length, leadin length, region length, ideal bulk proportion, limit of cores offered, and the renewal bump amount.
+In the 'Configuration Settings' section, sliders allow you to adjust various parameters that influence Coretime pricing:
 
-<img src="./img/config.png" alt="config" style="width: 40%;" />
-<img src="./img/const-sold.png" alt="const sold" style="width: 40%;" />
+1. **Ideal Bulk Proportion**: Sets the target ratio of cores for stable pricing. Prices rise if `cores_sold` exceed this proportion.
+2. **Interlude Length**: Defines the renewal period, giving precedence to existing tasks.
+3. **Leadin Length**: Duration of dynamic pricing phase where prices gradually decrease to the sale price, reflecting market demand.
+4. **Limit Cores Offered**: Maximum number of cores available per sale, crucial for maintaining market balance.
+5. **Region Length**: Time span of core allocation for each sale, indicative of the bulk period in Agile Coretime.
+6. **Renewal Bump**: Incremental price increase for renewals, facilitating long-term budgeting.
 
-
-![info hover](./img/info-hover.png)
-<img src="./img/leadin-curve.png" alt="leadin curve" style="width: 40%;" />
-<img src="./img/sale-settings.png" alt="salesettings" style="width: 40%;" />
-
-2. **Parameter Insights**:
-   - `Interlude Length`: A period for renewals, allowing priority to existing tasks.
-   - `Leadin Length`: A dynamic pricing phase where prices descend to the sale price, reflecting a demand-driven model.
-   - `Region Length`: Duration of core allocation for each sale, representing the bulk period in Agile Coretime.
-   - `Ideal Bulk Proportion`: Target ratio of cores for stable pricing if `cores_sold > ideal_bulk_cores` then prices rises `else` it falls.
-   - `Limit Cores Offered`: Cap on cores available per sale, a critical market equilibrium factor.
-   - `Renewal Bump`: Incremental price increase for renewals, supporting long-term planning.
+<img src="./img/config.png" alt="Configuration Settings" style="width: 40%;" />
 
 ### Sale Settings
 
-1. **Set Observing Time**: Use the 'X-AXIS - Observing time' slider to set the number of regions you want to observe.
+Adjust the sale settings to specify the time frame and initial pricing for your simulation.
 
-2. **Initial Core Pricing**: Set the 'Y-AXIS - Start Price of the Core You Bought' and 'Y-AXIS Starting Price' to establish the initial core prices.
+1. **Observation Time**: Use the 'X-AXIS - Observing time' slider to select the number of regions to observe.
+2. **Initial Core Pricing**: Determine starting prices for cores with the 'Y-AXIS' sliders.
 
-3. **Adjust Leadin Curve**: Expand the 'Change the Leadin period curve' section to toggle between linear and exponential curves and adjust the factor value.
+<img src="./img/sale-settings.png" alt="Sale Settings" style="width: 40%;" />
 
-4. **Core Sales Configuration**:
-   - Toggle between constant and variable sales across regions.
-   - For constant sales, set the number of cores renewed and sold in each sale.
-   - For variable sales, adjust the number of cores renewed and sold for each region.
+### Core Sales Configuration
 
-<img src="./img/var-sold1.png" alt="variable sold 1" style="width: 40%;" />
+Customize your sale model:
 
-![variable sold 2](./img/var-sold2.png)
+- **Constant Sales**: Set a uniform number of cores renewed and sold in each sale.
+- **Variable Sales**: Modify the number of cores renewed and sold for each region, reflecting a dynamic market model.
 
+For constant sales:
 
-### Visualization
+<img src="./img/const-sold.png" alt="Constant Sales" style="width: 40%;" />
 
-- The application visualizes the sale price over time on a graph based on your configured settings.
-- Key periods like Interlude, Leadin, and Region are marked on the graph for easy understanding.
+For variable sales:
 
-## Interacting with the Graph
+<img src="./img/var-sold1.png" alt="Variable Sales Settings" style="width: 40%;" />
 
-- Observe how changes in settings impact the sale price graph in real time.
-- Hover over the graph to see specific data points and trends.
+The graph for variable sales that coresponds to above settings will look like this:
 
-## Conclusion
+![Variable Sales Graph](./img/var-sold2.png)
 
-The Lastic Sale Price Simulator is a powerful tool for understanding and analyzing core sale dynamics. Experiment with different settings to see how they impact the overall sale strategy.
+#### Additional Feature: Leadin Period Curve
+
+A unique feature of our simulator is the ability to modify the Leadin period curve. This lets you explore how linear or exponential pricing models impact Coretime prices.
+
+<img src="./img/leadin-curve.png" alt="Leadin Curve Adjustment" style="width: 40%;" />
