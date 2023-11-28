@@ -31,6 +31,8 @@ Agile Coretime introduces a new, flexible method for allocating "Coretime" or "b
 - **Polkadot Ubiquitous Computer (Polkadot UC)**: Represents the collective computing resource provided by the Polkadot Network. It's a resilient, multi-core virtual machine that runs WebAssembly.
 
 - **Coretime**: Analogous to block space, Coretime is the time during which a Polkadot core is dedicated to performing a specific task. It's a measure of computational resource allocation within the network.
+ 
+- **Coretime chain**: This is a system parachain proposed that will keep track of Coretime transactions. It will allow users to buy Instantanious Coretime credits, buy Bulk Coretime, allocate it to certain tasks etc. The main goal of the Coretime chain is to transfer the computational load from the primary Relay chain to the Coretime system parachain.
 
 Instead of fixed, long-term allocations (like the previous parachain slot auctions), Coretime is periodically sold in two formats:
 
