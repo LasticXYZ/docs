@@ -13,7 +13,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'FAQs',
+        text: '🔎 General FAQs',
         collapsed: true,
         items: [
           { text: 'What is Blockspace?', link: '/faqs/what-is-blockspace' },
@@ -21,12 +21,12 @@ export default defineConfig({
           { text: 'What is Coretime on Polkadot?', link: '/faqs/what-is-coretime-on-polkadot' },
           { text: 'What can the Blockspace be used for?', link: '/faqs/what-can-blockspace-be-used-for' },
           { text: 'Who will be able to buy and sell blockspace on Lastic?', link: '/faqs/who-will-be-able-to-buy-and-sell' },
-          { text: 'When will Lastic launch?', link: '/faqs/when-will-lastic-launch' }
+          { text: 'When will Lastic launch?', link: '/faqs/when-will-lastic-launch' },
         ]
       },
       {
-        text: 'Coretime on Polkadot',
-        collapsed: false,
+        text: '🕒 Coretime FAQs',
+        collapsed: true,
         items: [
           { text: 'What is Coretime?', link: '/coretime/what-is-coretime' },
           { text: 'What is the Coretime Chain?', link: '/coretime/coretime-chain' },
@@ -40,7 +40,16 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Interact with Broker Pallet',
+        text: '👨‍💻 Contributors',
+        collapsed: false,
+        link: '/contributors/index',
+        items: [
+          { text: 'How to contribute', link: '/contributors/how-to' },
+          { text: 'Understanding Polkadot', link: '/contributors/understand' }
+        ]
+      },
+      {
+        text: '🔧 Interact with Broker Pallet',
         collapsed: true,
         items: [
           { text: 'Install the Interactor', link: '/substrate-interact/index' },
@@ -48,7 +57,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Interact with the Price Simulator',
+        text: '💹 Interact with the Price Simulator',
         collapsed: true,
         items: [
           { text: 'Key concepts', link: '/price-simulator/index' },
@@ -56,7 +65,8 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Dive deeper',
+        text: '📚 Dive deeper',
+        collapsed: true,
         items: [
           { text: 'Blockspace Basics', link: '/blockspace-basics' }
         ]
