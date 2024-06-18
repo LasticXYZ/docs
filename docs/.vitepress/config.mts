@@ -75,7 +75,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'twitter', link: 'https://x.com/lastic_xyz' },
-      { icon: 'github', link: 'https://github.com/lastic_xyz/lasticUI' }
+      { icon: 'github', link: 'https://github.com/LasticXYZ/LasticUI' }
     ]
   }
 })
